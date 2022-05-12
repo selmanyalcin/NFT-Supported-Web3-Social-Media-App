@@ -1,0 +1,283 @@
+.MainDiv {
+  background-color: #04040c;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+.ProfileDetails {
+  display: flex;
+  flex-direction: row;
+  background-color: #04040c;
+}
+.MainDivRow {
+  display: flex;
+  flex-direction: row;
+}
+.Menu {
+  background-color: #04040c;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  height: 100vh;
+  padding-left: 3%;
+  align-items: left;
+  justify-content: center;
+  position: sticky;
+  border: solid;
+  border-color: #16181c;
+  top: 0;
+}
+.ProfileSection {
+  background-color: #04040c;
+  flex-basis: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.ProfileDetails {
+  display: flex;
+  background-color: #04040c;
+  flex-direction: column;
+}
+.ProfileImg {
+  width: 120px;
+  height: 120px;
+  border-radius: 80%;
+  position: absolute;
+  top: 28%;
+  left: 28%;
+}
+.Banner img {
+  width: 100%;
+  height: 40vh;
+}
+.ProfileText {
+  display: flex;
+  flex-direction: column;
+  background-color: #04040c;
+  margin-top: 50px;
+  color: white;
+}
+.SetUpBtn {
+  height: 40px;
+  width: 25%;
+  margin-bottom: 30px;
+  background-color: #05ba7e;
+  border: none;
+  font-size: larger;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+.SetUpAccount {
+  background-color: #04040c;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 80%;
+  align-self: center;
+  align-content: center;
+  justify-self: center;
+  justify-content: space-between;
+  border: solid;
+  border-color: gray;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+.SetUpAccount input {
+  margin-left: 20px;
+  height: 50px;
+  width: 80%;
+  font-size: large;
+  align-self: center;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  background-color: #16181c;
+}
+.SetUpAccount2 {
+  background-color: #04040c;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 80%;
+  align-self: center;
+  align-content: center;
+  justify-self: center;
+  justify-content: space-between;
+  border: solid;
+  border-color: gray;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+.SetUpAccount2 input {
+  margin-left: 20px;
+  height: 60px;
+  width: 80%;
+  font-size: large;
+  align-self: center;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  background-color: #16181c;
+}
+.CloseBtn {
+  height: 40px;
+  width: 15%;
+  margin-bottom: 30px;
+  background-color: #05ba7e;
+  border: none;
+  font-size: large;
+  align-self: center;
+  justify-self: center;
+  margin-right: 20px;
+}
+.Follow {
+  display: flex;
+  flex-direction: row;
+  background-color: #04040c;
+}
+.Follow div {
+  margin-left: 30px;
+}
+.Follow h4 {
+  margin-left: 5px;
+}
+.TextArea {
+  display: flex;
+  flex-direction: row;
+  background-color: #04040c;
+  align-items: center;
+  margin-left: 30px;
+}
+.Description h4 {
+  margin-left: 30px;
+}
+.ButtonsSection {
+  display: flex;
+  flex-direction: row;
+  background-color: #04040c;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.Link {
+  color: white;
+  text-decoration: none;
+  font-size: x-large;
+  margin-left: 5px;
+}
+@media (max-width: 1000px) {
+  .Menu {
+    display: none;
+  }
+  .ProfileImg {
+    width: 120px;
+    height: 120px;
+    border-radius: 80%;
+    position: absolute;
+    top: 38%;
+    left: 5%;
+  }
+  .ProfileSection {
+    flex-basis: 100%;
+  }
+  .SetUpAccount {
+    width: 90%;
+    border: solid;
+    border-color: gray;
+    margin-top: 5%;
+  }
+  .SetUpAccount2 {
+    width: 80%;
+    border: solid;
+    border-color: gray;
+    margin-top: 5%;
+  }
+  .Banner img {
+    width: 100%;
+    height: 40vh;
+  }
+}
+@media (max-width: 850px) {
+  .Menu {
+    display: none;
+  }
+  .ProfileImg {
+    width: 120px;
+    height: 120px;
+    border-radius: 80%;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+  }
+  .ProfileSection {
+    flex-basis: 100%;
+  }
+  .SetUpAccount {
+    width: 90%;
+    border: solid;
+    border-color: gray;
+    margin-top: 10%;
+  }
+  .SetUpAccount2 {
+    width: 90%;
+    border: solid;
+    border-color: gray;
+    margin-top: 5%;
+  }
+  .Banner img {
+    width: 100%;
+    height: 40vh;
+  }
+  .Link {
+    font-size: normal;
+  }
+}
+@media (max-width: 600px) {
+  .ProfileImg {
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+    position: absolute;
+    top: 28%;
+    left: 5%;
+  }
+  .Banner img {
+    width: 100%;
+    height: 25vh;
+  }
+  .ProfileText {
+    margin-top: 20px;
+    font-size: smaller;
+  }
+  .SetUpBtn {
+    margin-right: 5px;
+    height: 45px;
+    font-size: smaller;
+  }
+  .TextArea {
+    margin-left: 5px;
+  }
+  .Description h4 {
+    margin-left: 5px;
+    font-size: smaller;
+  }
+  .Follow div {
+    margin-left: 10px;
+    font-size: smaller;
+  }
+  .Link {
+    font-size: 20px;
+  }
+  .SetUpAccount2 {
+    height: 50%;
+    width: 90%;
+    border: solid;
+    border-color: gray;
+    margin-top: 50%;
+  }
+}

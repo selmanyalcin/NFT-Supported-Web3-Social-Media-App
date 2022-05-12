@@ -1,0 +1,247 @@
+.MainDiv {
+  background-color: #04040c;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+.MainDivRow {
+  display: flex;
+  flex-direction: row;
+  background-color: #04040c;
+}
+.Menu {
+  background-color: #04040c;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  height: 100vh;
+  padding-left: 3%;
+  align-items: left;
+  justify-content: center;
+  position: sticky;
+  border: solid;
+  border-color: #16181c;
+  top: 0;
+}
+.Menu Link {
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+}
+.ContentArea {
+  background-color: #04040c;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 80%;
+  height: 100vh;
+  border: solid;
+  border-width: 4px;
+  border-color: #16181c;
+}
+.FollowSuggest {
+  background-color: #04040c;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 100;
+  flex-basis: 20%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.Header {
+  background-color: chocolate;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+}
+.PostArea {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  background-color: #16181c;
+  margin-bottom: 30px;
+  width: 90%;
+  align-self: center;
+  justify-self: center;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+.Post1 {
+  background-color: #16181c;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.Post1 img {
+  height: 80px;
+  width: 80px;
+  border-radius: 60px;
+}
+.Post1 input {
+  margin-left: 20px;
+  height: 60px;
+  width: 80%;
+  font-size: large;
+  align-self: center;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  background-color: #04040c;
+}
+.Post2 {
+  background-color: #16181c;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 20px;
+  align-items: center;
+  color: white;
+}
+.Post2 button {
+  margin-right: 30px;
+}
+.TimeLine {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-basis: 70%;
+  background-color: #04040c;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
+}
+.TimeLinePost {
+  background-color: #16181c;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.ProfileImage {
+  display: flex;
+  flex-basis: 10%;
+  padding-top: 5%;
+  background-color: #16181c;
+  justify-content: center;
+  border-radius: 20px;
+}
+.PostSection {
+  flex-basis: 90%;
+  display: flex;
+  flex-direction: column;
+  background-color: #16181c;
+  border-radius: 20px;
+}
+.PostSection h3 {
+  color: white;
+  margin-left: 15px;
+  margin-top: 1px;
+}
+.Btn {
+  height: 60px;
+  width: 70%;
+  margin-bottom: 30px;
+  background-color: #05ba7e;
+  border: none;
+  font-size: large;
+}
+.Btn2 {
+  height: 60px;
+  width: 100px;
+  background-color: #05ba7e;
+  border: none;
+  font-size: large;
+  margin-right: 20px;
+}
+.FollowTo {
+  background-color: #16181c;
+  border-radius: 20px;
+  width: 90%;
+  color: white;
+}
+.ShareButton {
+  height: 70px;
+  width: 70px;
+  margin-bottom: 30px;
+  background-color: #05ba7e;
+  border: none;
+  border-radius: 80%;
+  font-size: large;
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+}
+.HomeText {
+  color: white;
+  margin-left: 5%;
+}
+.file {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+}
+.file-input label {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background: #05ba7e;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+}
+.Header {
+  background-color: #16181c;
+  color: white;
+  width: 100%;
+  display: none;
+  height: 10vh;
+  position: sticky;
+  text-align: center;
+  align-items: center;
+  z-index: 1;
+  margin: 0;
+}
+
+@media (max-width: 1000px) {
+  .Menu {
+    display: none;
+  }
+  .MainDiv {
+    width: 0%;
+  }
+  .ProfileImg img {
+    border-radius: 80%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 10%;
+    top: 35%;
+  }
+  .Btn2 {
+    width: 60px;
+  }
+  .Header {
+    display: flex;
+    flex-direction: row;
+  }
+}
