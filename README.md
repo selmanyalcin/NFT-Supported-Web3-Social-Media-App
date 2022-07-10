@@ -6,7 +6,7 @@ Nowadays, billions of people uses social media apps and these apps earns billion
 
 [<img src="https://img.youtube.com/vi/s3JpujHhUSQ/hqdefault.jpg" align="center" width="60%">](https://www.youtube.com/watch?v=s3JpujHhUSQ "NFT Supported Web3 Social Media App")
 
-You can find a video that shows my projects so by watching this video you can see how it works without run my project.(Also for turkish documentation you can check out project files)
+You can find a video that shows my project so by watching this video you can see how it works without run my project.(Also for turkish documentation you can check out project files)
 
 # Decentralised Sharings And NFT:
 
